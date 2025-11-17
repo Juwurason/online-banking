@@ -39,6 +39,8 @@ export default function Login({ onLogin }) {
           <label>Email Address</label>
           <input
             type="email"
+            name="email"
+            autoComplete="email"
             placeholder="Enter your email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
