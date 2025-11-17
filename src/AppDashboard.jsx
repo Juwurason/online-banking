@@ -59,14 +59,6 @@ function AppDashboard({ onLogout }) {
     <div className="dashboard-container">
       {/* Navbar */}
       <nav className="navbar">
-        <div className="nav-left">
-          <img
-            src="https://www.rbcroyalbank.com/dvl/assets/images/logos/rbc-logo-shield.svg"
-            alt="Bank Logo"
-            className="bank-logo"
-          />
-          <h1 className="bank-name">Royal Digital Bank</h1>
-        </div>
         <div className="nav-right">
           <button className="logout-btn" onClick={handleLogout}>
             Logout
