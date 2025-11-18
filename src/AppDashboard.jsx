@@ -69,7 +69,7 @@ function AppDashboard({ onLogout }) {
       {/* Welcome */}
       <section className="welcome-section">
         <h2>
-          Welcome, <span className="highlight">David Akin</span>
+          Welcome, <span className="highlight">David Beaton</span>
         </h2>
         <p>Your personal online banking dashboard</p>
       </section>
